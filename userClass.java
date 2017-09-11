@@ -74,16 +74,3 @@ public class UserBuilder {
     }
 
 }
-
-
-
-void main(){
-    User user = new User("Иванов", "Иван", "Иванович", "812947816286");
-
-    UserBuilder userBuilder = new UserBuilder()
-                                    .surname("Иванов")
-                                    .name("Иван")
-                                    .patronymice("Иванович")
-                                    .phone("812947816286") 
-                                    .build();
-}
